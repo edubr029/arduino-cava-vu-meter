@@ -10,7 +10,7 @@ VU Meter for Arduino using CAVA (Console-based Audio Visualizer for Alsa) and Ne
 - Arduino (or compatible board)
 - NeoPixel LED strip (WS2812B or similar)
 - Adafruit NeoPixel [library][adaifruit-neopixel]
-- Linux based system (for the [ttyUSB][ttyUSB] serial port)
+- Linux based system (for the `cava_out.sh` script)
 - [CAVA][cava] (Console-based Audio Visualizer for Alsa)
 
 ## Configuration
@@ -76,4 +76,3 @@ Special thanks to [Sahaj Sarup][ric96] for [MatrixVizCava][matrixvizcava] projec
 [cava]: https://github.com/karlstav/cava (CAVA)
 [ric96]: https://gitlab.com/ric96 (Sahaj Sarup)
 [matrixvizcava]: https://gitlab.com/ric96/matrixvizcava (MatrixVizCava)
-[ttyUSB]: https://github.com/search?q=repo%3Aedubr029%2Farduino-cava-vu-meter+%2Fdev%2FttyUSB0&type=code (/dev/ttyUSB0)
