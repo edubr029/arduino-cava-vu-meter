@@ -1,0 +1,25 @@
+## Configuration file for CAVA
+
+[general]
+# Strip quantity
+bars = 1
+autosens = 1
+
+[output]
+method = raw
+
+# LED quantity
+ascii_max_range = 60
+
+raw_target = /dev/stdout
+data_format = ascii
+bit_format = 8bit
+
+# Visual channels. Can be 'stereo' or 'mono'.
+# 'stereo' mirrors both channels with low frequencies in center.
+# 'mono' outputs left to right lowest to highest frequencies.
+# 'mono_option' set mono to either take input from 'left', 'right' or 'average'.
+# set 'reverse' to 1 to display frequencies the other way around.
+channels = mono
+mono_option = average
+; reverse = 0
